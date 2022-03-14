@@ -48,8 +48,8 @@ a{
 }
 
 .blanco{
-    color: white !important;
-    border-color: white !important;
+    color: white;
+    border-color: white;
     font-family: 'Sofia', cursive;
 }
 
