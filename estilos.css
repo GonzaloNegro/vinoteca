@@ -1,0 +1,272 @@
+body{
+    background-color: rgb(119, 2, 26);
+}
+
+h1{
+    font-family: 'Sofia', cursive;
+    text-decoration: underline 2px;
+}
+
+h2{
+    font-family: 'Sofia', cursive;
+    text-decoration: underline 2px;
+}
+
+h4{
+    font-family: 'Sofia', cursive;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: underline 2px;
+}
+
+li h5{
+    font-family: 'Sofia', cursive;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+p{
+    text-shadow: 1px 1px 2px black;
+}
+
+.vinito img{
+    width: 35px;
+    margin-right: 20px;
+}
+
+.color{
+    background-color: rgb(119, 2, 26);
+}
+
+ul{
+    background-color: rgb(119, 2, 26) !important;
+}
+
+a{
+    font-size: 18px;
+    font-family: 'Sofia', cursive;
+    color: white !important;
+}
+
+.blanco{
+    color: white !important;
+    border-color: white !important;
+    font-family: 'Sofia', cursive;
+}
+
+
+.variacion{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;
+    background-color: rgb(119, 2, 26) !important;
+}
+
+.variacion:hover, .variacion:focus {
+    background-size: 100% 1px;
+}
+ /* FOOTER */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+ .footer{
+    height: 250px;
+
+    background-color: rgb(56, 0, 11);
+    border-top: 1px solid #6b6b6b;
+}
+
+.footer__contenedor{
+    margin: 0 auto;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   	grid-template-rows: repeat(1, 250px); 
+}
+
+.footer__info{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: flex-start;
+    color: white;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.footer__info li{
+    list-style: none;
+    background-color: rgb(56, 0, 11);
+}
+
+.footer__titulo{
+    width: auto;
+    height: auto;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: center;
+    color: white;
+
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer__redes{
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+
+/*     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline; */
+    /* flex-wrap: wrap-reverse; */
+    justify-self: center;
+    align-self: flex-start;
+
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.fa-instagram{
+    color: white;
+    padding: 0px 10px;
+}
+
+
+.fa-whatsapp{
+    color: white;
+    padding: 0px 10px;
+}
+
+.fa-envelope{
+    color: white;
+    padding: 0px 10px;
+}
+
+/* INDEX*/
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+.principal{
+    height: 650px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image: url(imagenes/fondo.png);
+    background-repeat: no repeat;
+    background-size: 100%;
+    color: white;
+}
+
+.uva{
+    width: 650px;
+    margin: 0 auto;
+}
+
+.uvita img{
+    height: 400px;
+}
+
+
+.imagen img{
+    border-radius: 10px;
+}
+
+/* PRINCIPAL 2 */
+
+.card-body{
+    height: auto;
+    color: rgb(78, 0, 16);
+
+    text-align: center;
+}
+
+/* .footer{
+    height: 250px;
+
+    background-color: rgb(22, 0, 0);
+    border-top: 1px solid rgb(119, 2, 26);
+} */
+
+.principal__2{
+    width: auto;
+    height: auto;
+    padding: 40px;
+
+    background-image: url(imagenes/fondo.png);
+    background-repeat: no repeat;
+    background-size: 100%;
+    background-color: rgb(78, 0, 16);
+    border-top: 3px solid rgb(29, 0, 0);
+}
+
+.vinos{
+    margin-top: 5px;
+}
+
+/* NOSOTROS */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+/* CONTACTO */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+
+/* JOVENES */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+
+/* CRIANZA */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+/* RESERVA */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+/* GRANRESERVA */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+
+
+
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* MEDIAQUERIES */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
+/* ////////////////////////////// */
