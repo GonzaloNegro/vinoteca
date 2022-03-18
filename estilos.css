@@ -67,6 +67,10 @@ a{
 .variacion:hover, .variacion:focus {
     background-size: 100% 1px;
 }
+
+label{
+    color: white;
+}
  /* FOOTER */
 /* ////////////////////////////// */
 /* ////////////////////////////// */
@@ -235,6 +239,20 @@ a{
 
 /* JOVENES */
 /* ////////////////////////////// */
+.DivParrafo1{
+    
+    }
+.DivParrafo2{
+    
+}
+
+.JovenesParrafo{
+    color: white;
+}
+
+
+
+
 /* ////////////////////////////// */
 
 
