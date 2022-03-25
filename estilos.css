@@ -11,6 +11,10 @@ h2{
     font-family: 'Sofia', cursive;
     text-decoration: underline 2px;
 }
+h3{
+    font-family: 'Sofia', cursive;
+    color: white;
+}
 
 h4{
     font-family: 'Sofia', cursive;
@@ -68,9 +72,7 @@ a{
     background-size: 100% 1px;
 }
 
-label{
-    color: white;
-}
+
  /* FOOTER */
 /* ////////////////////////////// */
 /* ////////////////////////////// */
@@ -234,8 +236,27 @@ label{
 /* ////////////////////////////// */
 /* ////////////////////////////// */
 
+.formContacto{
 
+    margin: 0 auto;
+    border: 5px solid white;
+    border: 10px;
+}
 
+.div, label{
+    margin-left: 50px;
+    color: #fff;
+}
+
+#Joven{
+    margin-left: 50px;
+}
+#Reserva{
+    margin-left: 50px;
+}
+#Tinto{
+    margin-left: 50px;
+}
 
 /* JOVENES */
 /* ////////////////////////////// */
