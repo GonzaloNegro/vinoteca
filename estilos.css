@@ -237,15 +237,39 @@ a{
 /* ////////////////////////////// */
 
 .formContacto{
-
+    width: 700px;
     margin: 0 auto;
-    border: 5px solid white;
-    border: 10px;
+    padding: 10px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.tipovino{
+    margin-bottom: 5px;
+    padding: 10px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Sofia', cursive;
+}
+
+.datos{
+    text-align: center;
+    font-family: 'Sofia', cursive;
+    text-decoration: underline 2px;
+}
+
+input, select, textarea{
+    margin-bottom: 10px;
+    font-family: 'Sofia', cursive;
 }
 
 .div, label{
     margin-left: 50px;
     color: #fff;
+    font-family: 'Sofia', cursive;
+
 }
 
 #Joven{
@@ -258,6 +282,20 @@ a{
     margin-left: 50px;
 }
 
+.botones{
+    width: 250px;
+    margin: 0 auto;
+}
+
+.btnenviar{
+    background-color:rgb(152, 253, 160);
+    width: 100px;
+}
+
+.btnreset{
+    background-color:rgb(253, 152, 152);
+    width: 100px;
+}
 /* JOVENES */
 /* ////////////////////////////// */
 .DivParrafo1{
