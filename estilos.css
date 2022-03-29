@@ -240,9 +240,9 @@ a{
     width: 700px;
     margin: 0 auto;
     padding: 10px;
-
     border: 1px solid white;
     border-radius: 10px;
+
 }
 
 .tipovino{
@@ -258,6 +258,30 @@ a{
     text-align: center;
     font-family: 'Sofia', cursive;
     text-decoration: underline 2px;
+    font-size: 40px;
+}
+
+#nombre{
+    margin-left: 30px;
+    width: 530px;
+    border-radius: 15px 0 15px 0 ;
+    font-size: 20px;
+}
+#apellido{
+    margin-left: 25px;
+    width: 530px;
+    border-radius: 15px 0 15px 0;
+    font-size: 20px;
+}
+#edad{
+    margin-left: 45px;
+    width: 510px;
+}
+#email{
+    margin-left: 45px;
+    width: 530px;
+    border-radius: 15px 0 15px 0 ;
+    font-size: 20px;
 }
 
 input, select, textarea{
@@ -281,7 +305,9 @@ input, select, textarea{
 #Tinto{
     margin-left: 50px;
 }
-
+.ol-form-label col-xl col-lg{
+    margin-right: 50px;
+}
 .botones{
     width: 250px;
     margin: 0 auto;
@@ -295,6 +321,18 @@ input, select, textarea{
 .btnreset{
     background-color:rgb(253, 152, 152);
     width: 100px;
+}
+#labelTinto{
+margin-right: 55px;
+}
+#labelRosado{
+
+}
+#labelBlanco{
+    margin-right: 55px;
+}
+#labelJoven{
+    margin-right: 50px;
 }
 /* JOVENES */
 /* ////////////////////////////// */

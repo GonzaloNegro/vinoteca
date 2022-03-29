@@ -11,7 +11,7 @@
   <link rel="shortcut icon" href="imagenes/vino.png">
   <script src="https://kit.fontawesome.com/ebb188da7c.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="estilos.css">
-  <title>San Sebastian</title>
+  <title>San Sebastián</title>
 </head>
 
 <body>
@@ -20,7 +20,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid color">
-          <a class="navbar-brand vinito"><img src="imagenes/vino.png" alt="logo">San Sebastian</a>
+          <a class="navbar-brand vinito"><img src="imagenes/vino.png" alt="logo">San Sebastián</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -61,7 +61,7 @@
       <div class="row">
         <div class="principal">
           <div class="titulo">
-            <h1>Contactenos para elegir su pedido</h1>
+            <h1>Contáctenos para elegir su pedido</h1>
           </div>
           <div class="formContacto" class="container-fluid">
             <form method="post" action="" class="formulario">
@@ -69,11 +69,11 @@
                 <legend class="datos">Datos del usuario</legend>
                 <div>
                   <label class="col-form-label col-xl col-lg" for="nombre">Nombre:</label>
-                  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu Nombre" required="true" />
+                  <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..." required="true" />
                 </div>
                 <div>
                   <label class="col-form-label col-xl col-lg" for="apellido">Apellido:</label>
-                  <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required="true" />
+                  <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido..." required="true" />
                 </div>
                 <div>
                   <label class="col-form-label col-xl col-lg" for="edad">Edad:</label>
@@ -92,30 +92,30 @@
                 </div>
                 <div>
                   <label class="col-form-label col-xl col-lg" for="email">Email:</label>
-                  <input type="email" id="email" name="email" placeholder="Escribe tu Email" required="true" />
+                  <input type="email" id="email" name="email" placeholder="Escribe tu email..." required="true" />
                 </div>
                 <div>
                   <fieldset class="tipovino">
                     <legend>Clases de vino</legend>
                     <input type="radio" id="Joven" name="vino" value="Joven">
-                    <label class="col-form-label col-xl col-lg" for="Joven">Vino Joven</label>
+                    <label class="col-form-label col-xl col-lg" id="labelJoven" for="Joven">Vino Joven</label>
                     <input type="radio" id="Rosado" name="vino" value="Reserva">
-                    <label class="col-form-label col-xl col-lg" for="Rosado">Vino Rosado</label>
+                    <label class="col-form-label col-xl col-lg" id="labelCrianza" for="Rosado">Vino Crianza</label>
                     <input type="radio" id="Reserva" name="vino" value="Reserva">
-                    <label class="col-form-label col-xl col-lg" for="Reserva">Vino de Reserva</label>
+                    <label class="col-form-label col-xl col-lg" id="labelReserva" for="Reserva">Vino de Reserva</label>
                   </fieldset>
                 </div>
                 <div>
                   <fieldset class="tipovino">
                     <legend>Tipo de vino</legend>
                     <input type="checkbox" id="Tinto" name="ClaseVino" value="Tinto">
-                    <label class="col-form-label col-xl col-lg" for="Tinto"> Vino Tinto</label>
+                    <label class="col-form-label col-xl col-lg" id="labelTinto" for="Tinto"> Vino Tinto</label>
       
                     <input type="checkbox" id="Blanco" name="ClaseVino" value="Blanco">
-                    <label class="col-form-label col-xl col-lg" for="Blanco">Vino Blanco</label>
+                    <label class="col-form-label col-xl col-lg" id="labelBlanco" for="Blanco">Vino Blanco</label>
       
                     <input type="checkbox" id="Rosado" name="ClaseVino" value="Rosado">
-                    <label class="col-form-label col-xl col-lg" for="Rosado">Vino Rosado</label>
+                    <label class="col-form-label col-xl col-lg" id="labelRosado" for="Rosado">Vino Rosado</label>
                   </fieldset>
                 </div>
                 <div>
