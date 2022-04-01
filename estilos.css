@@ -1,5 +1,8 @@
 body{
     background-color: rgb(119, 2, 26);
+    background-image: url(imagenes/fondo2.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
 }
 
 h1{
@@ -72,7 +75,9 @@ a{
     background-size: 100% 1px;
 }
 
-
+.form-control{
+    margin-top: 10px;
+}
  /* FOOTER */
 /* ////////////////////////////// */
 /* ////////////////////////////// */
@@ -174,9 +179,9 @@ a{
     justify-content: space-around;
     align-items: center;
     
-    background-image: url(imagenes/fondo.png);
+/*     background-image: url(imagenes/fondo.png);
     background-repeat: no repeat;
-    background-size: 100%;
+    background-size: 100%; */
     color: white;
 }
 
@@ -215,11 +220,10 @@ a{
     height: auto;
     padding: 40px;
 
-    background-image: url(imagenes/fondo.png);
+/*     background-image: url(imagenes/fondo.png);
     background-repeat: no repeat;
-    background-size: 100%;
-    background-color: rgb(78, 0, 16);
-    border-top: 3px solid rgb(29, 0, 0);
+    background-size: 100%; */
+/*     border-top: 3px solid rgb(29, 0, 0); */
 }
 
 .vinos{
@@ -243,6 +247,7 @@ a{
 
     border: 1px solid white;
     border-radius: 10px;
+    background-color: rgba(119, 2, 26, 0.8);
 }
 
 .tipovino{
