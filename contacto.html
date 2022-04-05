@@ -120,22 +120,33 @@
                 </div>
                 <div>
                   <label class="col-form-label col-xl col-lg" for="Estilo">Estilo de Vinos:</label>
-                    <select name="estilo">
+                    <select id= cmbEstilo name="estilo">
                       <option value="" selected disabled="estilo">-SELECCIONE UNA-</option>
                       <option value="Malbec">Malbec</option>
                       <option value="Cabernet Sauvignon">Cabernet Sauvignon</option>
                       <option value="Merlot">Merlot</option>
                     </select>
                 </div>
-                <div>
-                  <label class="col-form-label col-xl col-lg" for="Consulta">Comentario</label>
-                  <textarea id="Consulta" name="Consulta" rows="2" cols="30" placeholder="Consulta"></textarea>
+                <div class="divConsulta">
+                  <div class="row" >
+
+                  
+
+                  <div class="col-4" id = "labelComentario">
+                    <label class="col-form-label col-xl col-lg"  for="Consulta">Comentario: </label>
+                   </div>
+
+                  <div class="col-1" id="areaComentario">
+                    <textarea id="Consulta" name="Consulta" rows="2" cols="45" placeholder="Consulta..."></textarea>
+                  </div>
+                </div>
                 </div>
 
                     <div class="botones">
                       <input type="submit" class="btnenviar" value="Enviar"/>
                       <input type="reset" class="btnreset" value="Borrar">
                     </div>
+
               </fieldset>
             </form>
           </div>

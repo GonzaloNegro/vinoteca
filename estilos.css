@@ -330,23 +330,36 @@ input, select, textarea{
 #labelTinto{
 margin-right: 55px;
 }
-#labelRosado{
 
-}
 #labelBlanco{
     margin-right: 55px;
 }
 #labelJoven{
     margin-right: 50px;
 }
-/* JOVENES */
-/* ////////////////////////////// */
-.DivParrafo1{
-    
-    }
-.DivParrafo2{
+#cmbEstilo{
+    margin-left: 25px;
+    border-radius: 20px;
+}
+.divConsulta{
+    padding-right: 300px;
+}
+#labelComentario{
+    display: inline-block;
+   margin-right: 50px;
+ 
+   
+}
+#areaComentario{
+    display: inline-block;
     
 }
+#Consulta{
+    border-radius: 15px 0 15px;
+    font-size: 20px;
+}
+/* JOVENES */
+/* ////////////////////////////// */
 
 .JovenesParrafo{
     color: white;
