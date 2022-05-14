@@ -388,7 +388,7 @@ margin-right: 55px;
 /* GRANRESERVA */
 /* ////////////////////////////// */
 /* ////////////////////////////// */
-.container{
+.granreserva{
     display: grid;
     padding: 10px;    
     grid-gap: 20px;
@@ -422,7 +422,6 @@ margin-right: 55px;
     grid-column: 3/4;
     grid-row: 7/18;
 }
-
 
 /* ////////////////////////////// */
 /* ////////////////////////////// */
